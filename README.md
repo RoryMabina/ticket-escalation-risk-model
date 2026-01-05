@@ -39,8 +39,11 @@ We do not use resolution text, ticket status, satisfaction rating, or the timest
 - Neural net epochs: 12 | ROC-AUC: 0.464 | PR-AUC: 0.231 | top10% recall: 0.080
 
 ## How to run
+
 ```bash
 python -m venv .venv
 # Windows:
 .venv\Scripts\activate
+
 pip install -r requirements.txt
+
